@@ -1,1 +1,41 @@
-
+<!DOCTYPE html>
+ <html lang='en'>
+  <head>
+     <meta charset='UTF-8'>
+     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+     <title>W¡cked</title>
+     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+     <link rel='stylesheet' href='style.css'>
+  </head>
+  <body>
+     
+     <div class='video-bg'>
+         <video width='320' height='240' autoplay loop muted>
+          
+          <source src='https://assets.codepen.io/3364143/7btrrd.mp4' type='video/mp4'>
+         Your browser does not support the video tag.
+        </video>
+     </div>
+     
+     <form action='#' class='register-form'>
+         <h1 class='register'>Register</h1>
+         <div class='input-box'>
+             <i class='bx bxs-user'></i>
+             <input id='user_input' type='text' placeholder='Username'>
+         </div>
+         <div class='input-box'>
+             <i class='bx bxs-lock-alt'></i>
+             <input id='pass_input' type='password' placeholder='Password'>
+         </div>
+         <div class='input-box'>
+            <i class='bx bxs-lock-alt'></i>
+            <input id='key_input' type="Password" placeholder='License'>
+        </div>
+         <button id='register-btn' class='register-btn'>Register</button>
+         <p class='login'>
+             Already got an account?
+             <a href='https://get-wicked.uk.to/login'>Login</a>
+         </p>
+     </form>
+ </body>
+ </html>
